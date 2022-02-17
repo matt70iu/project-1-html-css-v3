@@ -1,28 +1,31 @@
 /*google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
-* {
-    margin:0
+body {
+    margin: 0;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
     font-family: karla sans-serif;
+    font-weight: bold;
     font-size: 20px;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 1fr 1fr 100px;
-    gap: 10px;
-    box-sizing: border-box;
 
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 50px 1fr 1fr 100px ;
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .container div {
     padding: 10px;
     border: 1px solid #000;
-
 }
 
 .header {
@@ -30,16 +33,16 @@
     grid-column-end: 4;
 }
 
-.content-1 {
+.content-large {
     grid-row-start: 2;
-    grid-row-end:4;
+    grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
-
 }
 
 .footer {
-    grid-column: 1;
-    grid-column: 3;
-    
+
+    grid-column: 1 / span 3;
+
+
 }
