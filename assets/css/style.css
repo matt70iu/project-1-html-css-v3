@@ -1,15 +1,19 @@
 /*google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding:0%;
+    background-color:yellow;
+    
 }
 
 .container {
     width: 100vw;
     height: 100vh;
     font-family: karla sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
 
     display: grid;
@@ -37,13 +41,13 @@ body {
 
 .top-nav-bar {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin: 5px;
+    justify-content: right;
     
 }.top-nav-bar li {
-    margin-left: 50px;
+    margin-left: 1px;
     list-style: none;
+    align-items: right;
+    padding: 30px 10%;
 }
     
 
@@ -58,11 +62,12 @@ body {
     grid-column-end: 3;
    overflow: hidden;
     max-width: 100%;
-    
-    
+    justify-content: left;
     
 
 }
+
+
 .content-small {
     object-fit: cover;
     width:100%;
