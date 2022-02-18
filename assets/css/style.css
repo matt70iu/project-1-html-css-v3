@@ -31,7 +31,13 @@ body {
 .header {
     grid-column-start: 1;
     grid-column-end: 4;
+    
 }
+
+
+
+
+
 
 .content-large {
     grid-row-start: 2;
