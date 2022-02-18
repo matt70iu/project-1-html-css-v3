@@ -31,9 +31,21 @@ body {
 .header {
     grid-column-start: 1;
     grid-column-end: 4;
-    
+    padding:5px
+
 }
 
+.top-nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 5px;
+    
+}.top-nav-bar li {
+    margin-left: 50px;
+    list-style: none;
+}
+    
 
 
 
