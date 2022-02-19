@@ -1,83 +1,80 @@
-/*google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
-
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding:0%;
-    background-color:yellow;
-    
+   margin:0;
+   padding:0;
+   box-sizing:border-box; 
+}
+
+/*white text styling*/
+
+body {
+    font-family: "lato" , sans-serif;
+    color: white;
+
+}
+
+/*text black with no decoration*/
+
+h1 {
+    font-size: 25px;
+    margin: 10px, 0;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px, 0;
+    line-height: 1.2;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+p {
+    font-size: 30px;
+
+}
+
+/*basic image styling*/
+img {
+    width: 100%;
+}
+
+/* remove styling on list elements*/
+li {
+    list-style: none;
+
+}
+
+p {
+    font-size: 20px;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
-    font-family: karla sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 50px 1fr 1fr 100px ;
-
-    gap: 10px;
-
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.container div {
-    padding: 10px;
-    border: 1px solid #000;
-}
-
-.header {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    padding:5px
+    margin: auto;
+    max-width: 1250px;
 
 }
 
-.top-nav-bar {
+.navbar {
+    background-color: blue;
+    height: 70px;
+    padding: 0, 30px;
+}
+
+.navbar h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px,0;
+    line-height: 1.2;
+
+}
+
+.navbar .flex {
     display: flex;
-    justify-content: right;
-    
-}.top-nav-bar li {
-    margin-left: 1px;
-    list-style: none;
-    align-items: right;
-    padding: 30px 10%;
-}
-    
-
-
-
-
-
-.content-large {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 3;
-   overflow: hidden;
-    max-width: 100%;
-    justify-content: left;
-    
-
-}
-
-
-.content-small {
-    object-fit: cover;
-    width:100%;
-    max-height: 100;
-    
-}
-
-.footer {
-
-    grid-column: 1 / span 3;
-
-
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
