@@ -78,3 +78,20 @@ p {
     align-items: center;
     height: 100%;
 }
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color:white;
+    padding: 9px;
+    margin: 0 10px; 
+}
+
+.navbar a:hover {
+    color:#9867c5;
+    border-bottom: 3px solid red
+}
+
+
