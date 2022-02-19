@@ -94,4 +94,35 @@ p {
     border-bottom: 3px solid red
 }
 
+.showcase {
+    background-color: blue;
+    height: 300px;
+}
+
+.showcase p {
+    margin-bottom: 30px;
+
+
+}
+
+.showcase img {
+    box-shadow: 7px 7px 7px rgba(0,0,0,0.2)
+
+}
+
+.showcase-form {
+    padding: 7px;
+}
+
+.grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+
+
+
+
+
 
