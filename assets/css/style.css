@@ -52,6 +52,7 @@ p {
     font-size: 20px;
 }
 
+/* div and navbar styling*/
 .container {
     margin: auto;
     max-width: 1250px;
@@ -94,6 +95,8 @@ p {
     border-bottom: 3px solid red
 }
 
+/*mid section styling */
+
 .showcase {
     background-color: blue;
     height: 300px;
@@ -104,6 +107,7 @@ p {
 
 
 }
+/*image, form and button styling*/
 
 .showcase img {
     box-shadow: 7px 7px 7px rgba(0,0,0,0.2)
@@ -162,5 +166,23 @@ font: size 14px;
     font-size: 15px;
     font-family: "poppins", sans-serif;
 }
+
+/*youtube vid styling */
+
+.youtube-promo-inner {
+    display: flex;
+}
+
+.youtube-promo-inner-vid {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    padding-left: 5%;
+    padding-top: 2%;
+
+}
+
+
+
 
 
