@@ -120,9 +120,47 @@ p {
     grid-template-columns: 60% 40%;
 }
 
+.grid-item-1, .grid-item-2 {
+    position: relative;
+    top: 50px;
+}
+
+.showcase input [type='email'] {
+padding: 10px,70px, 10px, 0;
+font: size 14px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 6px;
 
 
+}
 
 
+.btn {
+    border-radius: 6px;
+    padding: 12px 20px;
+    background: #6d67c5;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(189, 3, 3, 0.2);
+
+}
+
+
+.showcase-form {
+    margin: auto;
+
+
+}
+
+/*change font styke ans size*/
+
+.little-info {
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+}
 
 
