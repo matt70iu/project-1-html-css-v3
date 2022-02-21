@@ -213,6 +213,19 @@ p {
     text-align: justify;
   }
 
+  footer {
+    background-color: blue;
+    padding: 20px;
+    
+  }
+  
+  /* Sets all link texts to white and puts margin to the left and right */
+  
+  footer a {
+    color: white;
+    margin: 30px;
+  }
+
 
 
 
