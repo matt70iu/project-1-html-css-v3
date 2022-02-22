@@ -5,130 +5,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dublin Coders Club</title>
     <meta name="description" content="Dublin coding club for anyone who loves to code">
     <meta name="keywords" content="coding club, coding club dublin, coding club ireland, learn to code ireland">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Dublin Coding Club</title>
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="container flex">
-            <h1 class="logo">Dublin Coding Camp</h1>
-            <nav>
-                <ul>
-                    <li class="nav"><a class="outline" href="signup.html">Sign me up!</a></li>
-                    <li class="nav"><a href="" class="outline">Gallery</a> </li>
-                    <li class="nav"><a href="" class="outline">Home</a> </li>
-                </ul>
-            </nav>
+    <header class="nav-bar">
+        <h1 class="logo">Dublin Coding Club</h1>
+        <nav>
+            <ul class="nav-items-flex">
+
+                <li><a class="outline" href="signup.html">Sign me up!</a></li>
+                <li><a href="" class="outline">Gallery</a> </li>
+                <li><a href="" class="outline">Home</a> </li>
+
+            </ul>
+          
+        </nav>
         </div>
-    </div>
-    <section class="showcase">
-        <div class="container">
-            <div class="grid">
-                <div class="grid-item-1">
-                    <div class="showcase-text">
-                        <h1>Learn to code in the heart of Dublin city!</h1>
-                        <p class="accompanying-text">We have taught over 10,000 people how to code, all skill levels
-                            catered for</p>
-                    </div>
-                    <div class="showcase-form">
-                        <form action="#">
-                            <input type="email" placeholder="Enter your email address" required>
-                            <input type="button" class="btn" value="sign up">
-
-                            <p class="little-info">Sign up to our monthly newsletter today!</p>
-
-                        </form>
-
-                        <div class="profiles">
-                            <a href=""><em class="fab fa-twitter fa-2x"></em></a>
-                            <a href=""><em class="fab fa-instagram fa-2x"></em></a>
-                            <a href=""><em class="fab fa-facebook fa-2x"></em></a>
-                            <a href=""><em class="fab fa-whatsapp fa-2x"></em></a>
-                          </div>
-
-                    </div>
-
-                </div>
-
-                <div class="grid-item-2">
-                    <div class="image">
-                        <div class="youtube-promo-inner">
-                            <div class="youtube-promo-inner-vid">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/qFuLB4dN6zg"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
-                    
-                            </div>
-                    </div>
-                </div>
+    </header>
+    <section class="show-case">
+        <div class="youtube-vid-inner-flex">
+            <div class="youtube-vid-inner-flex-main">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qFuLB4dN6zg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
             </div>
         </div>
+        <div class="newsletter-signup">
+            <section class="newsletter-signup">
+                <div class="news-letter-form">
+                    <form action="post">
+                        <label for="fname">First Name</label>
+                     <input id="fname" class="text-input" type="text" name="first_name" required />
+                        <label for="lname">Last Name</label>
+                        <input id="lname" class="text-input" type="text"  name="last_name" required />
+                        <label for="email">Email Address</label>
+                        <input id="email" class="text-input" type="email" name="email_address" required/>
+                        <button class="news-btn">Sign me Up!</button>
 
-        <div class="lower-container container">
-            <section class="stats">
-                <div class="flex">
-                    <div class="stat">
-                        <h3 class="title">All Skill Levels Catered for from beginner to expert!</h3>
-                        <p class="text">As the saying goes, we all need to start somewhere! Weather you are completely
-                            new
-                            to coding, a keen hobbiest or someone with years under their belt, we have the class for
-                            you!
-                        </p>
-                    </div>
-                    <div class="stat">
-                        <h3 class="title">Classes run by tuters with over 20 years experience in the business.</h3>
-                        <p class="text">All our tutors are passionate and experienced software developers who love to
-                            code. It
-                            is our hope that we will pass this passion onto all our fellow club members and students. We
-                            have over 1000 members
-                            which is also growing all the time.
-                        </p>
-                    </div>
-                    <div class="stat">
 
-                        <h3 class="title">Classes held 3 days a week to suit your needs.</h3>
-                        <p class="text">We normally hold classes on Monday, Wednesday and Saturday evenings, so you join
-                            us after
-                            work or on the weekend, the choice is yours.
-                        </p>
-                    </div>
+
+
+
+                    </form>
+
+
+
+
                 </div>
+
+
+
+
+
             </section>
 
-            <footer>
-                <div class="container grid-3">
-                  <div class="copyright">
-                    <h1>Dublin coding camp</h1>
-                    <p>Copyright &copy; 2022</p>
-                  </div>
-                  <nav class="links">
-                    <ul>
-                      <li><a href="" class="outline">Home</a></li>
-                      <li><a href="" class="outline">About us</a></li>
-                      <li><a href="" class="outline">Sign me up</a></li>
-                    </ul>
-                  </nav>
-                  <div class="profiles">
-                    <a href=""><em class="fab fa-twitter fa-2x"></em></a>
-                    <a href=""><em class="fab fa-instagram fa-2x"></em></a>
-                    <a href=""><em class="fab fa-facebook fa-2x"></em></a>
-                    <a href=""><em class="fab fa-whatsapp fa-2x"></em></a>
-                  </div>
-                </div>
-              </footer>
+
+
+
+        </div>
 
 
 
 
+    </section>
 
 
 </body>
