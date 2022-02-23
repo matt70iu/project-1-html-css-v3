@@ -26,6 +26,7 @@ section {
 h1 {
   line-height: 1;
   
+  
 }
 
 h2 {
@@ -38,13 +39,23 @@ h3 {
   line-height: 1;
 }
 
+
+
 .container {
   margin: 0 auto;
   min-width: 90% 70.5rem;
 }
 
+header h1 {
+  display: flex;
+  justify-content: center;
+
+  
+ 
+}
+
 .nav-bar {
-  background-color: #00bfff;
+  background-color:#169B62;
   align-items: center;
 }
 
@@ -57,22 +68,29 @@ h3 {
 }
 
 .Sec1 {
-  background-color: beige;
+  background-color: #169B62;
   text-align: center;
 }
 
 .sec2 {
-  background-color: bisque;
+  background-color: #169B62;
   text-align: center;
+
 }
 
+
+
 .sec3 {
-  background-color: #878a75;
+  background-color: #FFFFFF;
+  display: flex;
+  align-content: center;
   
 }
 
 .sec4 {
-  background-color: #9b9c98;
+  background-color: #FF8200;
+  display: flex;
+  justify-content: center;
   
 }
 
