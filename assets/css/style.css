@@ -19,12 +19,18 @@ body {
 
 }
 
+section {
+  padding: 2rem;
+}
+
 h1 {
   line-height: 1;
+  
 }
 
 h2 {
   line-height: 1;
+  margin-top: 1.25rem;
 
 }
 
@@ -32,24 +38,42 @@ h3 {
   line-height: 1;
 }
 
+.container {
+  margin: 0 auto;
+  min-width: 90% 70.5rem;
+}
+
 .nav-bar {
   background-color: #00bfff;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: right;
+  margin-right: 1.25rem;
 }
 
 .Sec1 {
   background-color: beige;
+  text-align: center;
 }
 
 .sec2 {
   background-color: bisque;
+  text-align: center;
 }
 
 .sec3 {
   background-color: #878a75;
+  
 }
 
 .sec4 {
   background-color: #9b9c98;
+  
 }
 
 
