@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: redressed sans-serif;
+  font-weight: 300;
+  font-size: 0.938 rem;
+  line-height: 1.4;
+
+
+
+}
+
+h1 {
+  line-height: 1;
+}
+
+h2 {
+  line-height: 1;
+
+}
+
 
 
 
