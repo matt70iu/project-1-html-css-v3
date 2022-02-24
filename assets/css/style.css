@@ -98,6 +98,15 @@ header h1 {
 }
 
 
+.form-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
+
 
 
 
