@@ -97,6 +97,10 @@ header h1 {
   
 }
 
+.signup {
+  background-color: #FF8200;
+}
+
 
 
 
@@ -116,6 +120,7 @@ header h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
+
 }
 
 
