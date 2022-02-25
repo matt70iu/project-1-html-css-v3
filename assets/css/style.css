@@ -135,6 +135,56 @@ header h1 {
   
 }
 
+footer {
+  background-color: #169B62;
+  padding:4rem,1rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0, auto;
+  
+}
+
+.footer-1 {
+  display: flex;
+  margin-bottom: 4rem;
+  
+}
+
+.footer-col {
+  flex-basis: 200px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.footer-head {
+  margin: 1rem;
+}
+
+.footer-link {
+  display: block;
+  width: max-content;
+  padding:5px,10px;
+  margin: 0 auto;
+}
+
+.footer-2 {
+  display: flex;
+
+}
+
+.copyright {
+  margin-right: auto;
+}
+
+
+
+
                 
           
 
