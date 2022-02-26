@@ -50,22 +50,30 @@ header h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-
-  
  
 }
+
+.fa-brands {
+  margin: 	20px;
+  color:black ;
+}
+
 
 .nav-bar {
   background-color:#169B62;
   align-items: center;
+
 }
 
 .nav-items {
   list-style: none;
   display: flex;
   gap: 2.5rem;
-  justify-content: right;
-  margin-right: 1.25rem;
+  justify-content: center;
+  align-content: center;
+  padding: 0;
+  
+  
 }
 
 .Sec1 {
@@ -175,12 +183,15 @@ footer a {
 
 .footer-2 {
   display: flex;
+  align-content: center;
+  align-items: center;
 
 }
 
-.copyright {
-  margin-right: auto;
-}
+
+
+
+
 
 
 
