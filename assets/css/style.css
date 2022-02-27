@@ -25,6 +25,7 @@ section {
 
 h1 {
   line-height: 1;
+  padding: 0.625rem;
   
   
 }
@@ -50,11 +51,19 @@ header h1 {
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-top: 10px;
  
 }
 
+ul li a {
+
+  padding: 1.0rem;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
 .fa-brands {
-  margin: 	20px;
+  margin: 	1.25rem;
   color:black ;
 }
 
@@ -74,6 +83,15 @@ header h1 {
   padding: 0;
   
   
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+
 }
 
 .Sec1 {
@@ -146,47 +164,54 @@ header h1 {
 footer {
   background-color: #169B62;
   padding:4rem,1rem;
+  
+}
+
+footer h2 {
+  padding: 00.625rem;
 }
 
 footer a {
   text-decoration: none;
+  font-weight: bold;
+  padding: 1.0rem;
 }
 
-.container {
-  max-width: 1200px;
+.footer-container {
+  max-width: 90% 70.5rem;
   margin: 0, auto;
   
 }
 
 .footer-1 {
   display: flex;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  
   
 }
 
-.footer-col {
-  flex-basis: 200px;
-  flex-grow: 1;
-  text-align: center;
-}
-
-.footer-head {
-  margin: 1rem;
-}
-
-.footer-link {
-  display: block;
-  width: max-content;
-  padding:5px,10px;
-  margin: 0 auto;
-}
-
-.footer-2 {
+.social-footer {
   display: flex;
-  align-content: center;
+  justify-content:center ;
   align-items: center;
-
+  margin: 1.25rem;
 }
+
+.copyright {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
 
 
 
