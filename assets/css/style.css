@@ -13,7 +13,7 @@
 body {
   font-family: redressed sans-serif;
   font-weight: 300;
-  font-size: 0.938 rem;
+  font-size: 0.75 rem;
   line-height: 1.4;
   text-decoration: none;
 
@@ -49,6 +49,7 @@ h3 {
 .container {
   margin: 0 auto;
   min-width: fit-content;
+
 }
 
 header h1 {
@@ -77,6 +78,8 @@ a:hover, a:active {
   margin: 	1.25rem;
   color:black ;
 }
+
+
 
 
 .nav-bar {
@@ -172,13 +175,7 @@ a:hover, a:active {
   background-color: #FF8200;
 }
 
-/* Sign up button styling*/
 
-.sign-up-btn {
-  background-color: #169B62;
-  border:none;
-  padding: 0.975em 2em;
-}
 
 /* Section 3 styling*/
 
@@ -236,6 +233,18 @@ a:hover, a:active {
   
 }
 
+/* Sign up button styling*/
+
+#sign-up-btn {
+  background-color: #169B62;
+  border:none;
+  padding: 0.975em 2em;
+}
+
+#sign-up-btn:hover {
+  background-color: #FFFFFF;
+}
+
 /*Footer stylng*/
 
 footer {
@@ -254,6 +263,7 @@ footer h2 {
   padding: 1.0rem;
   font-size: 0.9375rem;
   list-style: none;
+  display: flex;
 
 }
 
