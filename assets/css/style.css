@@ -64,7 +64,13 @@ ul li a {
 
   padding: 1.0rem;
   font-weight: bold;
+  font-size: 1.25rem;
   padding-top: 10px;
+  
+}
+
+a:hover, a:active {
+  color: black;
 }
 
 .fa-brands {
@@ -242,10 +248,13 @@ footer h2 {
   padding: 00.625rem;
 }
 
-footer a {
-  text-decoration: none;
+.footer-nav {
+  
   font-weight: bold;
   padding: 1.0rem;
+  font-size: 0.9375rem;
+  list-style: none;
+
 }
 
 .footer-container {
