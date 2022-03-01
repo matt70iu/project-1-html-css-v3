@@ -65,7 +65,7 @@ ul li a {
   font-weight: bold;
   font-size: 1.25rem;
   padding-top: 0.625rem;
-  display: inline;
+  
   
 }
 
@@ -80,32 +80,21 @@ a:hover, a:active {
 
 /*Nav bar media for smaller screens*/
 
-@media (max-width:640px) {
-  ul li a {
-    display: inline;
-    text-align: center;
-
-
-  }
-
-}
-
-
-
 
 
 .nav-bar {
   background-color:#169B62;
-  align-items: center;
+  
 
 }
 
 .nav-items {
   list-style: none;
-  display: flex;
-  gap: 2.5rem;
+  display:flex;
+  gap: 2rem;
   justify-content: center;
   align-content: center;
+  text-align: center;
   padding: 0;
   
   
@@ -275,6 +264,7 @@ footer h2 {
   padding: 1.0rem;
   font-size: 0.9375rem;
   list-style: none;
+  gap: 2.5rem;
   display: flex;
 
 }
