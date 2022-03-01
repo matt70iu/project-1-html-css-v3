@@ -6,7 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  
   
 }
 
@@ -48,13 +48,12 @@ h3 {
 
 .container {
   margin: 0 auto;
-  min-width: fit-content;
+  max-width: 1200px;
+  
 
 }
 
 header h1 {
-  display: flex;
-  justify-content: center;
   text-align: center;
   padding-top: 10px;
  
@@ -62,11 +61,11 @@ header h1 {
 
 
 ul li a {
-
   padding: 1.0rem;
   font-weight: bold;
   font-size: 1.25rem;
-  padding-top: 10px;
+  padding-top: 0.625rem;
+  display: inline;
   
 }
 
@@ -78,6 +77,19 @@ a:hover, a:active {
   margin: 	1.25rem;
   color:black ;
 }
+
+/*Nav bar media for smaller screens*/
+
+@media (max-width:640px) {
+  ul li a {
+    display: inline;
+    text-align: center;
+
+
+  }
+
+}
+
 
 
 
