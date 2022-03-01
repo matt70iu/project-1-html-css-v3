@@ -80,6 +80,19 @@ a:hover, a:active {
 
 /*Nav bar media for smaller screens*/
 
+@media screen and (max-width: 600px) {
+.nav-items {
+  display: grid;
+}
+
+
+
+
+
+
+
+
+}
 
 
 .nav-bar {
@@ -89,6 +102,7 @@ a:hover, a:active {
 }
 
 .nav-items {
+  width: 100%;
   list-style: none;
   display:flex;
   gap: 2rem;
@@ -258,6 +272,8 @@ footer h2 {
   padding: 00.625rem;
 }
 
+
+
 .footer-nav {
   
   font-weight: bold;
@@ -266,11 +282,13 @@ footer h2 {
   list-style: none;
   gap: 2.5rem;
   display: flex;
+  justify-content: center;
+
 
 }
 
 .footer-container {
-  max-width: 90% 70.5rem;
+  width: 100%;
   margin: 0, auto;
   
 }
