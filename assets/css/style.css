@@ -55,6 +55,7 @@ h3 {
 header h1 {
   text-align: center;
   padding-top: 10px;
+  font-size: 3rem;
  
 }
 
@@ -68,9 +69,8 @@ header h1 {
 
 
 .img-header {
-  max-width: 70%;
-  padding-left: 6rem;
-  margin-left: 6rem;
+  max-width: 100%;
+  ;
 }
 
 
@@ -79,12 +79,14 @@ ul li a {
   font-weight: bold;
   font-size: 1.25rem;
   padding-top: 0.625rem;
+  text-decoration: none;
+  display: block;
   
   
 }
 
 a:hover, a:active {
-  color:red;
+  color: #FF8200;
   
 }
 
@@ -93,16 +95,7 @@ a:hover, a:active {
   color:black ;
 }
 
-/*Nav bar media for smaller screens*/
 
-@media screen and (max-width: 500px) {
-.nav-items {
-  display: grid;
-}
-
-
-
-}
 
 
 .nav-bar {
@@ -349,6 +342,18 @@ footer h2 {
   text-align: center;
   font-weight: bold;
 }
+
+/*Nav bar media for smaller screens*/
+
+@media screen and (max-width: 500px) {
+  .nav-items {
+    display: grid;
+   
+  }
+  
+  
+  
+  }
 
 
 
