@@ -5,7 +5,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  
   
   
   
@@ -45,23 +45,27 @@ h2 {
 h3 {
   line-height: 1;
 }
+
+
+
   
 
 /*Header and Nav bar*/
-
-
-.container {
-  margin: 0 auto;
-  max-width: 1200px;
-  
-
-}
 
 header h1 {
   text-align: center;
   padding-top: 10px;
  
 }
+
+
+.container {
+  margin: 0 auto;
+  max-width: 100%
+  
+
+}
+
 
 .img-header {
   max-width: 70%;
@@ -199,11 +203,17 @@ a:hover, a:active {
 
 /* Section 3 styling*/
 
+.sec-3-container {
+  max-width: 100%;
+  margin: 0,auto;
+  text-align: center;
+}
+
 .sec3 {
   background-color: #FFFFFF;
   display: flex;
-  align-content: center;
   text-align: center;
+  justify-content: center;
   
 }
 
@@ -211,7 +221,15 @@ a:hover, a:active {
 
 /* Section 4 styling*/
 
-.sec4 {
+.sec-4-container {
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+.sec-4s {
   background-color: #FF8200;
   display: flex;
   justify-content: center;
@@ -226,18 +244,25 @@ a:hover, a:active {
 
 /* Sign up form styling*/
 
+.signup-container {
+  background-color: #FFFFFF;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 
 
 .sign-title {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 0.625rem;
+  margin-bottom: 0.625rem;
   text-align: center;
+  margin-left:1.5625rem; 
   
 }
 
-.signup-box {
-  display: flex;
-  align-items: center;
+.signup-form {
+  max-width: 100%;
+  display: grid;
   justify-content: center;
   text-align: center;
 
@@ -261,6 +286,8 @@ a:hover, a:active {
   background-color: #169B62;
   border:none;
   padding: 0.975em 2em;
+  justify-content: center;
+  margin-left: 1.875rem;
 }
 
 #sign-up-btn:hover {
