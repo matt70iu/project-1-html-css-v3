@@ -8,6 +8,7 @@
   box-sizing: border-box;
   
   
+  
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -79,7 +80,8 @@ ul li a {
 }
 
 a:hover, a:active {
-  color: black;
+  color:red;
+  
 }
 
 .fa-brands {
@@ -129,7 +131,6 @@ a:hover, a:active {
 
 .img-header {
   display: flex;
-  padding-top: 40px;
   align-content: center;
   justify-content: center;
 }
@@ -205,6 +206,8 @@ a:hover, a:active {
   text-align: center;
   
 }
+
+
 
 /* Section 4 styling*/
 
