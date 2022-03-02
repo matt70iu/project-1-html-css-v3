@@ -64,8 +64,6 @@ header h1 {
 
 .img-header {
   max-width: 70%;
-  display: flex;
-  justify-items: center;
   padding-left: 6rem;
   margin-left: 6rem;
 }
@@ -91,15 +89,10 @@ a:hover, a:active {
 
 /*Nav bar media for smaller screens*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 .nav-items {
   display: grid;
 }
-
-
-
-
-
 
 
 
