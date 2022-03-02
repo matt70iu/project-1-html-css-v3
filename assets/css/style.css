@@ -256,7 +256,8 @@ a:hover, a:active {
   padding-bottom: 0.625rem;
   margin-bottom: 0.625rem;
   text-align: center;
-  margin-left:1.5625rem; 
+  margin: left 1.3rem;
+  align-content: center; 
   
 }
 
@@ -271,12 +272,13 @@ a:hover, a:active {
 
 
 .field {
-  width: 100%;
+  max-width: 100%;
   padding: 0.5rem 1rem;
   margin-bottom: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   
 }
 
@@ -287,7 +289,6 @@ a:hover, a:active {
   border:none;
   padding: 0.975em 2em;
   justify-content: center;
-  margin-left: 1.875rem;
 }
 
 #sign-up-btn:hover {
