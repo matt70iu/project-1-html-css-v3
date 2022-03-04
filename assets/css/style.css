@@ -217,28 +217,34 @@ a:hover, a:active {
   
 }
 
-/* Youtube vid styling - code used from: https://howchoo.com/webdev/how-to-make-youtube-videos-responsive-without-js*/
+/* Youtube vid styling (Code from https://jasonmkelly.com/jason-m-kelly/2020/3/17/making-your-youtube-videos-responsive*/
 
-.youtube-promo-inner-vid {
+.youtube-promo-inner {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
-  max-width: 40%;
-  max-height: 40%;
-  overflow: hidden;
+  height: 0;
+  overflow:hidden;
+
 }
 
-.embed-youtube iframe,
-.embed-youtube object,
-.embed-youtube embed {
-  border: 0;
+.youtube-promo-inner object {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
