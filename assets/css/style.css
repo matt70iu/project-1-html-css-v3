@@ -223,7 +223,8 @@ a:hover, a:active {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
-  height: 0;
+  max-width: 40%;
+  max-height: 40%;
   overflow: hidden;
 }
 
