@@ -54,13 +54,14 @@ h3 {
 
 header h1 {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: 3rem;
  
 }
 
 ul li {
   text-decoration: none;
+  padding-top: 20px;
 }
 
 
@@ -85,7 +86,7 @@ ul li a {
 }
 
 
-.img-header {
+.img-header-1 {
   max-width: 100%;
   ;
 }
