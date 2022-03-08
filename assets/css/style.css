@@ -5,16 +5,12 @@
 * {
   padding: 0;
   margin: 0;
-  
-  
-  
-  
 }
 
 body {
   font-family: redressed sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   line-height: 1.4;
   text-decoration: none;
 
@@ -329,7 +325,7 @@ a:hover, a:active {
 
 footer {
   background-color: #169B62;
-  padding:4rem 1rem;
+  
   
 }
 
@@ -338,10 +334,12 @@ footer h2 {
 }
 
 footer ul li {
-  display: inline-block;
+  display: flex;
   font-weight: bold;
   font-size: 1.25rem;
   text-decoration: none;
+  
+
 
 
 }
@@ -357,14 +355,17 @@ footer ul li {
   gap: 2.5rem;
   display: flex;
   justify-content: center;
+  
 
 
 }
 
 .footer-container {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
+  
+  
   
 }
 
@@ -374,6 +375,7 @@ footer ul li {
   align-content: center;
   justify-content: center;
   text-align: center;
+  padding-bottom: 1rem;
   
   
 }
@@ -390,7 +392,7 @@ footer ul li {
   font-weight: bold;
 }
 
-/*Nav bar media for smaller screens*/
+/*Nav bar media for smaller screens
 
 @media screen and (max-width: 500px) {
   .nav-items {
@@ -408,6 +410,7 @@ footer ul li {
   @media screen and (max-width: 500px) {
     footer ul li {
       display: inline-block;
+      
 
 
 
