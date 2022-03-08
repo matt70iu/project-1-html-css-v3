@@ -50,7 +50,7 @@ h3 {
 
 header h1 {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
   font-size: 3rem;
  
 }
@@ -420,7 +420,8 @@ footer ul li {
   }
   @media screen and (max-width: 500px) {
     .footer-nav {
-      display: inline-flex;
+      display: flex;
+      
       
 
 
@@ -428,6 +429,7 @@ footer ul li {
 
 
     }
+  
 
   }
 
