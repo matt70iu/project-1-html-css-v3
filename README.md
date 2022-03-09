@@ -1,8 +1,6 @@
 # Dublin Coding Club
 
-Dublin Coding club was set up to cater for basically anyone who has a keen interest in code. We wanted the site to be striking and relevent enough to encourage any user of the site, to enroll in a growing community of enthuastic coders with one aim in mind...to enjoy teachung people how to code!
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+Dublin Coding club was set up to cater for basically anyone who has a keen interest in code. We wanted the site to be striking and relevent enough to encourage any user of the site, to enroll in a growing community of enthuastic coders with one aim in mind...to enjoy 
 
 ## Features 
 Consisting of a Header, and three option Nav bar, images, a youtube video, cotact form and footer. the site is of a simple yet striking deskign in order ot keep the user on the page. The Colour scheme, consisting of the Irish tricolour flag going all the way down to the page, is to emphisize the capture the user's interest and make them curious enough to come along and see what we're all about.
@@ -15,26 +13,24 @@ Consisting of a Header, and three option Nav bar, images, a youtube video, cotac
   - Consists of 3 Nav items labeled Home, Meet times and signup. When the user clicks on each link, they are brought to that section of the page.
   - As the user hovers over each Nav item, they are greeted with an orage hover affect, keeping in line with the theme of the site.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+
 
 - __The landing page images__
 - Landing images consist of a lit up laptop, half open to create a bit of anticipation.
 - A second image depicts a young man busy coding at a laptop. This is to emphaize the practical nature of the Dublin Coding club.
 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __Club Meet Times section__
   - The user is provided with the day and time of each class through out the week. 
   -  Aims to provide enough info to keep the user scrolling down the page and colours are keeping in line with site theme.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+
 
 - _Youtube Video Section_
   - Designed to catch the users eye, and encourage them to click, the youtube video will increase the amount of time a user spends on the site.
   -It also serves to guide the user down to the contact form towards the bottom of the page.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - _Coding Image Section_
 - Consists of a centered image with a piece of code on a screen.
