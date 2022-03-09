@@ -1,6 +1,8 @@
 # Dublin Coding Club
 
-Dublin Coding club was set up to cater for basically anyone who has a keen interest in code. We wanted the site to be striking and relevent enough to encourage any user of the site, to enroll in a growing community of enthuastic coders with one aim in mind...to enjoy 
+Dublin Coding club was set up to cater for basically anyone who has a keen interest in code. We wanted the site to be striking and relevent enough to encourage any user of the site, to enroll in a growing community of enthuastic coders with one aim in mind...to enjoy coding and learning to code.
+![Responsice Mockup](/assets/images/Screenshots/responsive-1.png)
+
 
 ## Features 
 Consisting of a Header, and three option Nav bar, images, a youtube video, cotact form and footer. the site is of a simple yet striking deskign in order ot keep the user on the page. The Colour scheme, consisting of the Irish tricolour flag going all the way down to the page, is to emphisize the capture the user's interest and make them curious enough to come along and see what we're all about.
