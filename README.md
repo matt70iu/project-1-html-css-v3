@@ -14,40 +14,46 @@ Consisting of a Header, and three option Nav bar, images, a youtube video, cotac
 
   - Consists of 3 Nav items labeled Home, Meet times and signup. When the user clicks on each link, they are brought to that section of the page.
   - As the user hovers over each Nav item, they are greeted with an orage hover affect, keeping in line with the theme of the site.
+  ![Nav-bar](/assets/images/Screenshots/Screenshot%20nav-bar.png)
 
 
 
 - __The landing page images__
 - Landing images consist of a lit up laptop, half open to create a bit of anticipation.
 - A second image depicts a young man busy coding at a laptop. This is to emphaize the practical nature of the Dublin Coding club.
+![Landing-page-images](/assets/images/Screenshots/Screenshot%20landing-page-images.png)
 
 
 
 - __Club Meet Times section__
   - The user is provided with the day and time of each class through out the week. 
   -  Aims to provide enough info to keep the user scrolling down the page and colours are keeping in line with site theme.
+  ![Club-meets-section](/assets/images/Screenshots/Screenshot%20club-meets.png)
 
 
 
-- _Youtube Video Section_
+- __Youtube video Section__
   - Designed to catch the users eye, and encourage them to click, the youtube video will increase the amount of time a user spends on the site.
   -It also serves to guide the user down to the contact form towards the bottom of the page.
+   ![Youtube-vid-section](/assets/images/Screenshots/Screenshot%20youtube-vid-section.png)
 
 
-- _Coding Image Section_
+- __Coding Image Section__
 - Consists of a centered image with a piece of code on a screen.
 - Situated just above the sign up form and designed to grab the user's attention.
+ ![Coding-image-section](/assets/images/Screenshots/Screenshot%20coding-image-section.png)
+
 
 - __The Sign Up Section__
 - Form consists of Name, email address and message. Sign up button also turns white on mouse hover in keeping with site theme.
 - The User will then be presented with thankyou message advising we will be in touch shortly.
+ ![Sign-up-section](/assets/images/Screenshots/Screenshot%20Sign-up-section.png)
 
 - __The Footer__ 
 
 - Contains 3 Nav links like the top nav bar of Home, Meet Times and Signup. Nav links also have orange hover affect.
 - Font Awsome icons also link to facebook, instagram and twitter and open in a new tab.
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](/assets/images/Screenshots/Screenshot%20footer.png)
 
 
 ### Features Left to Implement
