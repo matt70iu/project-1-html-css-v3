@@ -67,7 +67,7 @@ Consisting of a Header, and three option Nav bar, images, a youtube video, cotac
 ### Validator Testing 
 
 - HTML
-- No errors displayed when code was run through HTML Validator ![html validator](/assets/images/Screenshot%20html-validator.png)
+- No errors displayed when code was run through HTML Validator ![html validator](/assets/images/Screenshots/Screenshot%20html-validator.png)
 - CSS
 - No errors displayed when code was run through CSS Validator  ![CSS Validator](/assets/images/Screenshots/Screenshot%20Css-validation.png)
 
@@ -83,16 +83,30 @@ This section should describe the process you went through to deploy the project 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - As stated above, I initially had issues with images not displaying. Having checked an article on slack overflow (https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages) I was able to correct the issue by amending the image file name and path.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here -  https://matt70iu.github.io/project-1-html-css-v3/ 
 
 
-## Credits 
+## Credits
+- Youtube tutorials used to help build site:
+https://www.youtube.com/watch?v=bn-DQCifeQQ Channel Link:https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw (Kevin Powell)
+-I found this tutorial very helpful in assisting with site layout, as well as the how to effectivly use flexbox and flexgrid.
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+https://www.youtube.com/watch?v=Db5jCkrVgAw Channel Link:https://www.youtube.com/channel/UCLjtB1XNaiVz-brRDymb5gg (True Coder) 
+-This tutorial was great for assisting in the contact form setup for elements such as form field and button styling.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+https://www.youtube.com/watch?v=vQAvjof1oe4&t=72s Channel Link: https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw (Kevin Powell)
+- This tutorial helped me understand the basics of flexbox/grid as well as examples of how it can be implemented.
+
+https://www.youtube.com/watch?v=aRMIdKRYg6c&t=15s Channel Link:https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw (Learn Code Accademy)
+- This tutorial gave me ideas in terms of layout as well as helping me to ensue site is responsive with just a few lines of code and cut down on media query usage,
+
+
+
+
+
 
 ### Content 
 
