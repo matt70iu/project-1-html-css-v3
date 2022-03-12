@@ -67,6 +67,7 @@ ul li a {
   font-size: 1.25rem;
   padding-top: 0.625rem;
   text-decoration: none;
+ 
   
   
   
@@ -86,13 +87,15 @@ ul li a {
 
 .img-header-1 {
   max-width: 100%;
-  ;
+  
 }
 
 
 
 a:hover, a:active {
   color: #FF8200;
+  
+  
   
 }
 
