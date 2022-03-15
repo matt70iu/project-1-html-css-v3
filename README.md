@@ -10,7 +10,7 @@ Consisting of a Header, and three option Nav bar, images, a youtube video, cotac
 
 ### Existing Features
 
-- __Navigation Bar__
+  - Navigation Bar
 
   - Consists of 3 Nav items labeled Home, Meet times and signup. When the user clicks on each link, they are brought to that section of the page.
   - As the user hovers over each Nav item, they are greeted with an orage hover affect, keeping in line with the theme of the site.
@@ -25,16 +25,18 @@ Consisting of a Header, and three option Nav bar, images, a youtube video, cotac
 
 
 
-- __Club Meet Times section__
+ - __Club meet times section__
   - The user is provided with the day and time of each class through out the week. 
   -  Aims to provide enough info to keep the user scrolling down the page and colours are keeping in line with site theme.
+
   ![Club-meets-section](/assets/images/Screenshots/Screenshot%20club-meets.png)
 
 
 
-- __Youtube video Section__
-  - Designed to catch the users eye, and encourage them to click, the youtube video will increase the amount of time a user spends on the site.
-  -It also serves to guide the user down to the contact form towards the bottom of the page.
+- __Youtube Video section__
+
+ - Designed to catch the users eye, and encourage them to click, the youtube video will increase the amount of time a user spends on the site.
+  - It also serves to guide the user down to the contact form towards the bottom of the page.
    ![Youtube-vid-section](/assets/images/Screenshots/Screenshot%20youtube-vid-section.png)
 
 
@@ -63,7 +65,7 @@ Consisting of a Header, and three option Nav bar, images, a youtube video, cotac
 ## Testing 
 - Header and footer nav elements were not lining up correctly at mobile screen sizes. Rectified this with the use of media queries for both header and footer navs.
 - Images were not displaying when page was deployed to github pages. Rectified this by changing image file extensions to upper case and removing any underscores in image file names. Known issue ith github pages.
-- Contact form displaying code institute dump page but not displaying any data that was submitted. Corrected form perameters to get rather than post in html rectified issue.
+- Contact form displaying code institute dump page but not displaying any data that was submitted. Corrected form perameters to get rather than post in html rectified iss
 - Images were not coded optimally and were returning poor lighthouse and HTML validator results
 
 
@@ -79,13 +81,14 @@ Consisting of a Header, and three option Nav bar, images, a youtube video, cotac
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-  - As stated above, I initially had issues with images not displaying. Having checked an article on slack overflow (https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages) I was able to correct the issue by amending the image file name and path.
+ - The site was deployed to GitHub pages. The steps to deploy are as follows:
+ 
+- In the GitHub repository, navigate to the Settings tab 
+ From the source section drop-down menu, select the Master Branch.
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- As stated above, I initially had issues with images not displaying. Having checked an article on slack overflow (https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages) I was able to correct the issue by amending the image file name and path.
 
-The live link can be found here -  https://matt70iu.github.io/project-1-html-css-v3/ 
+- The live link can be found here -  https://matt70iu.github.io/project-1-html-css-v3/ 
 
 
 ## Credits
@@ -95,7 +98,7 @@ https://www.youtube.com/watch?v=bn-DQCifeQQ
 
 Channel Link:https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw (Kevin Powell)
 
--I found this tutorial very helpful in assisting with site layout, as well as the how to effectivly use flexbox and flexgrid.
+- I found this tutorial very helpful in assisting with site layout, as well as the how to effectivly use flexbox and flexgrid.
 
 --------------------------------------------------------------------------------------------------------
 
@@ -103,7 +106,7 @@ https://www.youtube.com/watch?v=Db5jCkrVgAw
 
 Channel Link:https://www.youtube.com/channel/UCLjtB1XNaiVz-brRDymb5gg (True Coder) 
 
--This tutorial was great for assisting in the contact form setup for elements such as form field and button styling.
+- This tutorial was great for assisting in the contact form setup for elements such as form field and button styling.
 
 ---------------------------------------------------------------------------------------------------------
 
