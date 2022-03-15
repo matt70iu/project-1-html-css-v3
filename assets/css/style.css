@@ -93,8 +93,6 @@ a:hover, a:active {
 }
 
 
-
-
 .nav-bar {
   background-color:#169B62;
    
@@ -182,9 +180,7 @@ a:hover, a:active {
 #sign-up {
   background-color: #FF8200;
 
-
 }
-
 
 
 /* Section 3 styling*/
@@ -254,7 +250,6 @@ a:hover, a:active {
 }
 
 
-
 .sign-title {
   padding-bottom: 0.625rem;
   margin-bottom: 0.625rem;
@@ -271,7 +266,6 @@ a:hover, a:active {
   text-align: center;
 
 }
-
 
 
 .field {
@@ -315,12 +309,9 @@ footer ul li {
   font-weight: bold;
   font-size: 1.25rem;
   text-decoration: none;
-  
-
 
 
 }
-
 
 
 .footer-nav {
@@ -333,16 +324,13 @@ footer ul li {
   display: flex;
   justify-content: center;
   
-
-
 }
 
 .footer-container {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  
-  
+   
   
 }
 
@@ -350,9 +338,7 @@ footer ul li {
   display: flex;
   align-content: center;
   justify-content: center;
-  text-align: center;
-
-  
+  text-align: center;  
   
 }
 
@@ -374,29 +360,15 @@ footer ul li {
   .nav-items {
     display: grid;
 
-
-
-
-
-
   }
   
-  
-  
+
   }
   @media screen and (max-width: 500px) {
     .footer-nav {
       display: flex;
-      
-      
-
-
-
-
-
     }
   
-
   }
 
 
