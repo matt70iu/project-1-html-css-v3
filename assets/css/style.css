@@ -10,8 +10,8 @@
 body {
   font-family: redressed sans-serif;
   font-weight: 300;
-  font-size: 1.0rem;
-  line-height: 1.4;
+  font-size: 1.1 rem;
+  line-height: 1.6;
   text-decoration: none;
 
 }
@@ -26,25 +26,22 @@ section {
 }
 
 h1 {
-  line-height: 1;
+  line-height: 1rem;
   padding: 0.625rem;
   
   
 }
 
 h2 {
-  line-height: 1;
+  line-height: 3rem;
   margin-top: 1.25rem;
 
 }
 
 h3 {
-  line-height: 1;
+  line-height: 1.2rem;
 }
-
-
-
-  
+ 
 
 /*Header and Nav bar*/
 
@@ -66,13 +63,9 @@ ul li a {
   font-weight: bold;
   font-size: 1.25rem;
   padding-top: 0.625rem;
-  text-decoration: none;
- 
-  
-  
+  text-decoration: none; 
   
 }
-
 
 .container-header {
   margin: 0 auto;
@@ -80,23 +73,18 @@ ul li a {
   height: 100%;
   padding-bottom:8rem;
     
-  
-
 }
 
 
 .img-header-1 {
   max-width: 100%;
-  
-}
 
+}
 
 
 a:hover, a:active {
   color: #FF8200;
-  
-  
-  
+    
 }
 
 .fa-brands {
@@ -109,9 +97,7 @@ a:hover, a:active {
 
 .nav-bar {
   background-color:#169B62;
-  
-  
-
+   
 }
 
 .nav-items {
@@ -123,18 +109,9 @@ a:hover, a:active {
   align-content: center;
   text-align: center;
   padding: 0;
-  
-  
+   
 }
 
-.social-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2.5rem;
-  margin-top: 2.5rem;
-
-}
 
 .img-header {
   display: flex;
@@ -183,8 +160,6 @@ a:hover, a:active {
   background-color: #FF8200;
 
   
-
-  
 }
 
 .times-2 {
@@ -200,12 +175,14 @@ a:hover, a:active {
 /* Navigation id's for scroll*/
 
 #meet-times {
-  scroll-behavior: smooth;
+  line-height: 2rem;
+  
 }
 
 #sign-up {
   background-color: #FF8200;
-  scroll-behavior: smooth;
+
+
 }
 
 
@@ -249,16 +226,6 @@ a:hover, a:active {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* Section 4 styling*/
 
 .sec-4-container {
@@ -276,10 +243,6 @@ a:hover, a:active {
   text-align: center;
   
 }
-
-
-
-
 
 
 /* Sign up form styling*/
