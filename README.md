@@ -66,7 +66,9 @@ Consisting of a Header, and three option Nav bar, images, a youtube video, cotac
 - Header and footer nav elements were not lining up correctly at mobile screen sizes. Rectified this with the use of media queries for both header and footer navs.
 - Images were not displaying when page was deployed to github pages. Rectified this by changing image file extensions to upper case and removing any underscores in image file names. Known issue ith github pages.
 - Contact form displaying code institute dump page but not displaying any data that was submitted. Corrected form perameters to get rather than post in html rectified iss
-- Images were not coded optimally and were returning poor lighthouse and HTML validator results
+- Images were not coded optimally and were returning poor lighthouse and HTML validator results, issues now rectified.
+- Tested site loading and responsiveness in the following browsers: Microsoft Edge, Mozilla Firefox, Google Chrome and everything performed as expected with all images loading 
+  and nav items changing as needed for smaller screen sizes.
 
 
 ### Validator Testing 
