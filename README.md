@@ -166,4 +166,10 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
 - All images used were taken from https://www.pixabay.com and are free of copyright.
 
+### Acknowledgements
+
+- My mentor for all his help and advise.
+- The tutors at code institue for their helpful assistance.
+- The youtubers whose tutorials helped further develop my coding skills.
+
 
