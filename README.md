@@ -64,8 +64,8 @@ Consisting of a Header, and three option Nav bar, images, a youtube video, cotac
 
 ## Testing 
 - Header and footer nav elements were not lining up correctly at mobile screen sizes. Rectified this with the use of media queries for both header and footer navs.
-- Images were not displaying when page was deployed to github pages. Rectified this by changing image file extensions to upper case and removing any underscores in image file names. Known issue ith github pages.
-- Contact form displaying code institute dump page but not displaying any data that was submitted. Corrected form perameters to get rather than post in html rectified iss
+- Images were not displaying when page was deployed to github pages. Rectified this by changing image file extensions to upper case and removing any underscores in image file names. Known issue with github pages.
+- Contact form displaying code institute dump page but not displaying any data that was submitted. Corrected form perameters to get rather than post in html rectified this.
 - Images were not coded optimally and were returning poor lighthouse and HTML validator results, issues now rectified.
 - Tested site loading and responsiveness in the following browsers: Microsoft Edge, Mozilla Firefox, Google Chrome and everything performed as expected with all images loading 
   and nav items changing as needed for smaller screen sizes.
@@ -158,7 +158,7 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
 
 ### Content 
-- All wording was written with the aim of encouraging the end user to make contact with the Dublin coding club. Although club is obviously fictional, similar principles can be applied to many other aspects of site building when selling a product or service.
+- All wording was written by the developer, with the aim of encouraging the end user to make contact with the Dublin coding club. Although club is obviously fictional, similar principles can be applied to many other aspects of site building when selling a product or service.
 - Social media icons contained in the footer were sourced from https://www.fontawsome.com.
 - Youtube Video sourced from youtube channel: https://www.youtube.com/c/deeplizard
 
