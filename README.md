@@ -75,8 +75,10 @@ Consisting of a Header, and three option Nav bar, images, a youtube video, cotac
 
 - HTML
 - No errors displayed when code was run through HTML Validator ![html validator](/assets/images/Screenshots/Screenshot%20html-validator.png)
+https://validator.w3.org/
 - CSS
 - No errors displayed when code was run through CSS Validator  ![CSS Validator](/assets/images/Screenshots/Screenshot%20Css-validation.png)
+Link:https://jigsaw.w3.org/css-validator/
 
 
 ## Deployment
@@ -88,9 +90,12 @@ This section should describe the process you went through to deploy the project 
 - In the GitHub repository, navigate to the Settings tab 
  From the source section drop-down menu, select the Master Branch.
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- I also created a local clone of the repository for backup puposes.
+- I downloaded the Github desktop app, logged into my account and created a local copy which could now be synced with the repository on Github.
 - As stated above, I initially had issues with images not displaying. Having checked an article on slack overflow (https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages) I was able to correct the issue by amending the image file name and path.
 
-- The live link can be found here -  https://matt70iu.github.io/project-1-html-css-v3/ 
+- The live link can be found here -  https://matt70iu.github.io/project-1-html-css-v3/
+
 
 
 ## Credits
