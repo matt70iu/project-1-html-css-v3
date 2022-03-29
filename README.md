@@ -68,7 +68,9 @@ Consisting of a Header, and three option Nav bar, images, a youtube video, cotac
 - Contact form displaying code institute dump page but not displaying any data that was submitted. Corrected form perameters to get rather than post in html rectified this.
 - Images were not coded optimally and were returning poor lighthouse and HTML validator results, issues now rectified.
 - Tested site loading and responsiveness in the following browsers: Microsoft Edge, Mozilla Firefox, Google Chrome and everything performed as expected with all images loading 
-  and nav items changing as needed for smaller screen sizes.
+and nav items changing as needed for smaller screen sizes.
+- Aria label on youtube video causing HTML validator warning, although, label produced higer lighthouse score. I decided to remove the aria label in order to remove validator warning.
+  
 
 
 ### Validator Testing 
